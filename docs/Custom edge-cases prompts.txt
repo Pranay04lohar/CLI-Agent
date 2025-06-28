@@ -1,0 +1,15 @@
+prompts:
+
+Prompt1: "Create a new Git branch and switch to it."
+
+Prompt2: "Compress the folder reports into reports.tar.gz."
+
+Prompt3: "List all Python files in the current directory recursively."
+
+Prompt4: "Set up a virtual environment and install requests."
+
+Prompt5: "Fetch only the first ten lines of a file named output.log."
+
+Prompt6: "Remove all .pyc files but keep the .py files intact"
+
+Prompt7: "Find all files larger than 100MB in the current directory and its subdirectories, then sort them by size"

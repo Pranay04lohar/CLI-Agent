@@ -1,0 +1,171 @@
+{"instruction": "Create a new Git branch and switch to it", "step": "To create a new Git branch:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git checkout -b my-new-branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "To switch to the new branch:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git checkout my-new-branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "The -b flag specifies the branch name. You can add a name for the branch by adding a colon and the name."}
+{"instruction": "Create a new Git branch and switch to it", "step": "B: To see the branch you're currently on"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git branch"}
+{"instruction": "Create a new Git branch and switch to it", "step": "C: To check if the branch you're currently on is a detached head (a merge commit)"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git branch -vv"}
+{"instruction": "Create a new Git branch and switch to it", "step": "D: To merge a branch into your main branch"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git merge my-new-branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "E: To merge a branch into your main branch using interactive rebasing"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git merge --no-ff my-new-branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "F: To create a new Git branch from a specific commit"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git checkout -b my-new-branch-name <commit-sha>"}
+{"instruction": "Create a new Git branch and switch to it", "step": "G: To create a new Git branch from a specific commit, but not the main branch"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git checkout -b my-new-branch-name origin/my-new-branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "H: To create a new Git branch from a specific commit, but not the main branch"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Create a new branch using git branch --new-branch branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Switch to the new branch using git checkout branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "B:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Create a new branch using git branch --new-branch branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Switch to the new branch using git checkout branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "C:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Create a new branch using git branch -b branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Switch to the new branch using git checkout branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "D:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Create a new branch using git checkout -b branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Switch to the new branch using git checkout branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "E:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Create a new branch using git checkout -b branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Switch to the new branch using git checkout branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "F:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Create a new branch using git checkout -b branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Switch to the new branch using git checkout branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "G:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Create a new branch using git checkout -b branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Switch to the new branch using git checkout branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "H:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Create a new branch using git checkout -b branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Switch to the new branch using git checkout branch-name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "I:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Create a new branch using git checkout -b branch"}
+{"instruction": "Create a new Git branch and switch to it", "step": "1. First, checkout the current branch to perform the switch:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git checkout master"}
+{"instruction": "Create a new Git branch and switch to it", "step": "2. Create a new branch with the name of your choice (e.g. 'new_branch_name'):"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git branch new_branch_name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "3. Switch to the new branch:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git checkout new_branch_name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "4. Review your changes and commit them:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git add ."}
+{"instruction": "Create a new Git branch and switch to it", "step": "git commit -m \"Commit message\""}
+{"instruction": "Create a new Git branch and switch to it", "step": "5. Push the new branch to the remote repository:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git push origin new_branch_name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "6. Create a pull request from your local repository:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git pull origin master"}
+{"instruction": "Create a new Git branch and switch to it", "step": "7. Merge the pull request into your main branch:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git merge pull/[number] from/[source]"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Note: The \"new_branch_name\" name should be unique and unused. It should not be used in any other branches in your repository."}
+{"instruction": "Create a new Git branch and switch to it", "step": "To create a new Git branch and switch to it in Git:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "*"}
+{"instruction": "Create a new Git branch and switch to it", "step": "*On your local machine, create a new branch by typing the following command:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git checkout -b new_branch_name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "*Switch to the new branch by typing the following command:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git checkout new_branch_name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "*To create a new Git branch from a specific commit, type the following command:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git checkout -b new_branch_name SHA_OF_COMMIT_TO_BRANCH_FROM"}
+{"instruction": "Create a new Git branch and switch to it", "step": "*The SHA_OF_COMMIT_TO_BRANCH_FROM is the SHA of a specific commit that you want to create a new Git branch from."}
+{"instruction": "Create a new Git branch and switch to it", "step": "*To create a new Git branch from a specific branch, type the following command:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git checkout -b new_branch_name branch_name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "*The branch_name is the name of the branch you want to create a new Git branch from."}
+{"instruction": "Create a new Git branch and switch to it", "step": "*To create a new Git branch from a specific branch and switch to it, type the following command:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git checkout -b new_branch_name branch_name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "*In this case,"}
+{"instruction": "Create a new Git branch and switch to it", "step": "This is a basic Git workflow and can be simplified even further, but let's assume you've already created a new branch called my-branch:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "1. Git status:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "$ git status"}
+{"instruction": "Create a new Git branch and switch to it", "step": "On branch my-branch"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Your branch is ahead of 'origin/my-branch' by 1 commit."}
+{"instruction": "Create a new Git branch and switch to it", "step": "You are currently building on 'origin/my-branch'."}
+{"instruction": "Create a new Git branch and switch to it", "step": "Changes not staged for commit:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "(use \"git add <file>...\" to update what will be committed)"}
+{"instruction": "Create a new Git branch and switch to it", "step": "(use \"git checkout -- <file>...\" to discard changes in working directory)"}
+{"instruction": "Create a new Git branch and switch to it", "step": "modified:   .gitignore"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Untracked files:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "(use \"git add <file>...\" to include in what will be committed)"}
+{"instruction": "Create a new Git branch and switch to it", "step": "README.md"}
+{"instruction": "Create a new Git branch and switch to it", "step": "no changes added to commit (use \"git add\" and/or \"git commit -a\")"}
+{"instruction": "Create a new Git branch and switch to it", "step": "2. Git reset:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "$ git reset my-branch"}
+{"instruction": "Create a new Git branch and switch to it", "step": "HEAD is at 94c9d6b..e6c1d87"}
+{"instruction": "Create a new Git branch and switch to it", "step": "You are currently building on 'origin/my-branch'."}
+{"instruction": "Create a new Git branch and switch to it", "step": "$ git reset --hard"}
+{"instruction": "Create a new Git branch and switch to it", "step": "You are a helpful CLI assistant. Given the following instruction, generate a step-by-step plan with shell commands:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Instruction: Create a new Git branch and switch to it"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Plan:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "1. Prepare a new branch (branch_name)"}
+{"instruction": "Create a new Git branch and switch to it", "step": "2. Switch to the branch using git checkout branch_name"}
+{"instruction": "Create a new Git branch and switch to it", "step": "3. Commit the changes (git add .)"}
+{"instruction": "Create a new Git branch and switch to it", "step": "4. Push the changes to GitHub"}
+{"instruction": "Create a new Git branch and switch to it", "step": "5. Create a pull request to merge the changes back to master"}
+{"instruction": "Create a new Git branch and switch to it", "step": "Explanation:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "1. Prepare a new branch (branch_name) by creating a new directory and creating a new Git branch using git checkout -b branch_name."}
+{"instruction": "Create a new Git branch and switch to it", "step": "2. Switch to the branch using git checkout branch_name."}
+{"instruction": "Create a new Git branch and switch to it", "step": "3. Commit the changes using git add ."}
+{"instruction": "Create a new Git branch and switch to it", "step": "4. Push the changes to GitHub using git push origin branch_name."}
+{"instruction": "Create a new Git branch and switch to it", "step": "5. Create a pull request to merge the changes back to master using git push origin master."}
+{"instruction": "Create a new Git branch and switch to it", "step": "This will help you quickly get started with creating a new Git branch and making changes to your project."}
+{"instruction": "Create a new Git branch and switch to it", "step": "To switch to a specific commit, use the git log command. For example:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git log --oneline --graph --all"}
+{"instruction": "Create a new Git branch and switch to it", "step": "This command will show you a graphical representation of the commits in your repository, with a branch highlighted at the top. To switch to a specific commit, use the git switch command"}
+{"instruction": "Create a new Git branch and switch to it", "step": "To add files to a Git repository:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "1. Clone a Git repository:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git clone https://github.com/<user>/<repo>.git"}
+{"instruction": "Create a new Git branch and switch to it", "step": "2. Add files to the repository:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "cd <repo>"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git add ."}
+{"instruction": "Create a new Git branch and switch to it", "step": "git commit -m \"Added some files\""}
+{"instruction": "Create a new Git branch and switch to it", "step": "git push origin master"}
+{"instruction": "Create a new Git branch and switch to it", "step": "3. Verify the changes were added:"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git status"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git checkout -b <branch_name>"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git checkout -b feature-new-feature"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git checkout master"}
+{"instruction": "Create a new Git branch and switch to it", "step": "git checkout -b <branch-name>"}
+{"instruction": "List all files in current directory", "step": "ls -lh [FILE_PATH]"}
+{"instruction": "Set up a virtual environment and install requests", "step": "To set up a virtual environment and install requests, follow these steps:\n\n1. Create a new virtual e"}
+{"instruction": "Set up a virtual environment and install requests", "step": "python -m venv my_venv"}
+{"instruction": "Set up a virtual environment and install requests", "step": "pip install requests"}
+{"instruction": "Fetch only the first ten lines of a file named output.log", "step": "```bash\nwhile IFS= read -r line || [[ -n \"$line\" ]]; do\n    echo \"$line\"\ndone < /path/to/output.log\n"}
+{"instruction": "Fetch only the first ten lines of a file named output.log", "step": "tail -n 10 output.log"}
+{"instruction": "Fetch only the first ten lines of a file named output.log", "step": "tail -n 10 output.log"}
+{"instruction": "Create a new Git branch called feature-auth", "step": "git checkout master"}
+{"instruction": "Create a new Git branch called feature-auth", "step": "git branch feature-auth"}
+{"instruction": "Create a new Git branch called feature-auth", "step": "git checkout feature-auth"}
+{"instruction": "Create a new Git branch called feature-auth", "step": "git add ."}
+{"instruction": "Create a new Git branch called feature-auth", "step": "git commit -m \"Added feature-auth\""}
+{"instruction": "Create a new Git branch called feature-auth", "step": "git push origin feature-auth"}
+{"instruction": "Create a new Git branch called feature-auth", "step": "git checkout -b feature-auth"}
+{"instruction": "Create a new Git branch called feature-auth", "step": "git merge --no-commit --ff feature-auth"}
+{"instruction": "Create a new Git branch called feature-auth", "step": "git branch -d feature-auth"}
+{"instruction": "Create a Git branch", "step": "git checkout -b [branch_name]"}
+{"instruction": "Create a Git branch", "step": "git merge [branch_name]"}
+{"instruction": "Create a Git branch", "step": "git checkout develop"}
+{"instruction": "Create a Git branch", "step": "git checkout -b add-new-feature"}
+{"instruction": "Create a Git branch", "step": "git add ."}
+{"instruction": "Create a Git branch", "step": "git checkout -b my-branch"}
+{"instruction": "Compress the folder reports into reports.tar.gz.", "step": "tar -czvf reports.tar.gz reports"}
+{"instruction": "Find all Python files that were modified in the last 3 days and show their sizes", "step": "git diff"}
+{"instruction": "Remove all .pyc files but keep the .py files intact", "step": "find . -name '*.pyc' -delete"}
+{"instruction": "Show me the weather", "step": "# Command not recognized"}
+{"instruction": "Delete everything", "step": "sudo rm /var/log/*.log"}
+{"instruction": "Create a file and delete it at the same time", "step": "touch my_file"}
+{"instruction": "Find all files larger than 100MB in the current directory and its subdirectories, then sort them by size", "step": "find . -type f -size +1024k -print0 | xargs -0 du -sb --max-depth=1 | sort -rn"}
+{"instruction": "Create a new Git branch and switch to it.", "step": "git checkout -b new_branch_name"}
+{"instruction": "Create a new Git branch and switch to it.", "step": "git checkout -b <branch-name>"}
+{"instruction": "Create a new Git branch and switch to it.", "step": "git checkout -b <branch-name>"}
+{"instruction": "Compress the folder reports into reports.tar.gz.", "step": "$ tar czvf reports.tar.gz reports/"}
+{"instruction": "List all Python files in the current directory recursively.", "step": "ls -la"}
+{"instruction": "Set up a virtual environment and install requests.", "step": "python3 -m venv env"}
+{"instruction": "Fetch only the first ten lines of a file named output.log.", "step": "tail -f output.log | head -n10"}
+{"instruction": "Remove all .pyc files but keep the .py files intact", "step": "find /usr/local/lib/python2.7 -type f -name '*.pyc' | xargs rm -f"}
+{"instruction": "Find all files larger than 100MB in the current directory and its subdirectories, then sort them by size", "step": "find . -type f -mtime +2 -size 100M -print0 | xargs -0 -I {} sh -c 'ls -l {}\"{}\" > /dev/null' || exit 1"}
+{"instruction": "Create a new Git branch and switch to it.", "step": "git checkout -b my_branch_name"}
+{"instruction": "Create a new Git branch and switch to it.", "step": "git checkout -b <branch-name>"}
+{"instruction": "Create a new Git branch and switch to it.", "step": "git checkout -b my-new-branch"}
+{"instruction": "Create a new Git branch and switch to it.", "step": "git checkout -b <branch-name>"}
+{"instruction": "Compress the folder reports into reports.tar.gz.", "step": "tar -czvf reports.tar.gz ./reports/"}
+{"instruction": "How to create a new branch in git", "step": "git checkout -b my-new-branch"}
+{"instruction": "list all files which are modified/created in the last ", "step": "find . -type f -mtime +10 -print | xargs echo"}
+{"instruction": "list all files which are modified/created in the last 5 minutes in my linux system.", "step": "ls -la"}
