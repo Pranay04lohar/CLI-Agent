@@ -1,3 +1,7 @@
+# Demo Video:
+https://github.com/user-attachments/assets/e8edb76a-97f3-4e82-bebf-bea18a4dbfed
+
+
 # CLI Agent: Reproducible Build & Usage Guide
 
 ## Overview
